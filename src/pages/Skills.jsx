@@ -9,49 +9,17 @@ const pageVariants = {
 
 const skillGroups = [
   {
-    title: "Programming Languages",
-    items: "Python, Java, C, C++, Bash, R, C#",
+    title: "Software Skills",
+    items: "Python, SQL, HTML, CSS",
   },
   {
-    title: "Machine Learning",
+    title: "Other Technical Skills",
     items:
-      "Regression, Classification, Clustering, Decision Trees, Data Preprocessing, Pipelines, CI/CD pipelines, Model Training & Evaluation, MLOps, MLflow",
+      "Derivatives Pricing (Black Scholes Model), Value-at-Risk (VaR) Analysis (Monte Carlo Simulation), Back-testing, Object Oriented Programming (OOP), Linear Regression, Random Forest",
   },
   {
-    title: "Deep Learning & Generative AI",
-    items: "PyTorch, TensorFlow, Keras, CNNs, LLMs",
-  },
-  {
-    title: "NLP",
-    items:
-      "Text Preprocessing, NER, Sentiment Analysis, Transformers, Hugging Face",
-  },
-  {
-    title: "Data Analysis & Visualization",
-    items: "Pandas, NumPy, Matplotlib, Scikit-Learn, Power BI, Excel",
-  },
-  {
-    title: "Computer Vision",
-    items: "Customizing & fine-tuning models for image classification",
-  },
-  {
-    title: "Web / Frameworks",
-    items:
-      "Human-Computer Interaction, JavaScript, TypeScript, HTML5, CSS3, React.js, React Native, Next.js, Express.js, Node.js, Redux",
-  },
-  {
-    title: "Tools & Cloud",
-    items:
-      "Git, GitHub, Docker, Matlab, AWS (SageMaker, Lambda, EC2, S3, DynamoDB, CloudWatch, SES, EventBridge, CloudFront, EBS, EFS)",
-  },
-  {
-    title: "CS Fundamentals",
-    items:
-      "Data Structures, Algorithms, Operating Systems, Systems Programming",
-  },
-  {
-    title: "Databases",
-    items: "MySQL, SQL Server, PostgreSQL",
+    title: "Tools and Technologies",
+    items: "MS Excel, MS Word, MS PowerPoint, Git, Bloomberg Terminal, Kaggle",
   },
 ];
 

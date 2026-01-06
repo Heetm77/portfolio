@@ -1,36 +1,31 @@
-// src/components/Navbar.jsx
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navItems = [
   { label: "Home", to: "/" },
-  // About removed – About content now lives on Home
-  { label: "Experience", to: "/experience" },
-  { label: "Skills", to: "/skills" },
   { label: "Projects", to: "/projects" },
-  { label: "Achievements", to: "/achievements" },
-  { label: "Blog", to: "/blog" },
+  { label: "Experience", to: "/experience" },
+  { label: "Education", to: "/education" },
+  { label: "Skills", to: "/skills" },
   { label: "Contact", to: "/contact" },
 ];
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
-  const baseLink =
-    "text-sm md:text-base font-medium transition-colors duration-200";
+  const baseLink ="text-sm md:text-base font-medium transition-colors duration-200";
   const activeClass = "text-[#e85a85]";
   const inactiveClass = "text-gray-200 hover:text-white";
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-[#111111]/90 backdrop-blur-md border-b border-gray-800">
-      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-10 h-16 flex items-center justify-between">
+      <div className="max-w-[89rem] mx-auto px-2 md:px-3 lg:px-5 h-16 flex items-center justify-between">
         <NavLink to="/" className="font-semibold text-lg md:text-xl">
-          <span className="text-white">Avi</span>
-          <span className="text-[#e85a85]"> Chauhan</span>
+          <span className="text-white">Heet</span>
+          <span className="text-[#e85a85]"> Mehta</span>
         </NavLink>
 
-        {/* Desktop nav */}
         <div className="hidden md:flex items-center gap-6">
           {navItems.map((item) => (
             <NavLink

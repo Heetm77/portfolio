@@ -217,7 +217,7 @@ const Blog = () => {
       <div className="max-w-6xl mx-auto">
         {/* Page heading */}
         <h1 className="text-3xl md:text-4xl font-bold text-center mb-2">
-          Avi&apos;s Blog
+          Heet&apos;s Blog
         </h1>
         <p className="text-gray-300 text-sm md:text-base text-center mb-10">
           Longer write-ups on the projects I&apos;ve built — what they do, how

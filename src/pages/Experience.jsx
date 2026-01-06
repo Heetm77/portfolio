@@ -10,40 +10,40 @@ const pageVariants = {
 
 const experiences = [
   {
-    role: "AI / LLM Intern",
-    company: "Silent Infotech Pvt Ltd, Ahmedabad, India",
+    role: "Portfolio Management Intern",
+    company: "Shagun Wealth, Ahmedabad, Gujarat, India",
+    period: "May 2024 – Jun 2024",
+    description:
+      "Assisted in managing high net worth client portfolios totaling $500M AUM by conducting NAV trend analysis and portfolio beta assessment.",
+    longDescription:
+      "As a Portfolio Management Intern at Shagun Wealth, I assisted in managing high net worth client portfolios totaling $500M AUM by conducting NAV trend analysis and portfolio beta assessment. I supported client onboarding through trading account setup and investment recommendations, executed purchases and redemptions across various mutual fund schemes, and used NSE/BSE trading terminals to monitor real time market movements.",
+  },
+  {
+    role: "Project Intern, Software Development",
+    company: "Silver Touch Technologies Ltd, Ahmedabad, Gujarat, India",
     period: "Jan 2024 – Apr 2024",
     description:
-      "Worked on AI-assisted workflows, LLM integrations, and internal tools for automation.",
+      "Led the development of a front end flight booking system using Flutter, Dart, HTML, and CSS, improving load speed by 30% and reducing booking effort by 40%.",
     longDescription:
-      "As an AI / LLM Intern at Silent Infotech, I worked on integrating large language models into existing business workflows. I helped design and prototype internal tools that automated repetitive tasks for the team, such as document summarization, email drafting, and query answering. I also contributed to prompt design, evaluation of different model variants, and building small FastAPI services that exposed these capabilities to internal dashboards. This role strengthened my understanding of production-grade AI systems, prompt engineering, and evaluation strategies.",
+      "At Silver Touch Technologies Ltd, I led the development of a front end flight booking system using Flutter, Dart, HTML, and CSS. I collaborated with a team of four and coordinated tasks to ensure on time project delivery. I enhanced system performance by improving load speed by 30% and reducing booking effort by 40%, implementing core features including user authentication, flight search and filters, and seat selection.",
   },
   {
-    role: "Remote Internship Trainee (Web Design)",
-    company: "Karvi Engineering & Consultancy, Vadodara, India",
-    period: "Jan 2022 – Apr 2022",
+    role: "Intern, Python Development",
+    company: "Silver Touch Technologies Ltd, Ahmedabad, Gujarat, India",
+    period: "May 2023 – Jul 2023",
     description:
-      "Contributed to multiple live React projects in the web design team.",
+      "Developed finance domain application using Python and PostgreSQL, contributing to internal tools that reduced reporting time for the finance team by 25%.",
     longDescription:
-      "At Karvi Engineering & Consultancy, I worked remotely as a Web Design Intern on multiple live client projects. My responsibilities included building responsive React components, implementing new UI flows based on Figma designs, and fixing layout issues across different breakpoints. I collaborated with senior developers to refactor older components to modern React patterns and improved performance by optimizing asset loading and state management. This internship gave me strong exposure to client expectations, timelines, and real-world front-end best practices.",
+      "During my Python Development internship at Silver Touch Technologies Ltd, I developed finance domain application using Python and PostgreSQL, contributing to internal tools that reduced reporting time for the finance team by 25%. I cleaned and standardized large datasets to improve data reliability and supported testing and deployment of production modules, ensuring alignment with business logic and performance standards.",
   },
   {
-    role: "Web Developer Intern",
-    company: "Peace Solutions Private Limited, Pune, India",
-    period: "Jul 2021 – Aug 2021",
+    role: "Intern, Web Development",
+    company: "Silver Touch Technologies Ltd, Ahmedabad, Gujarat, India",
+    period: "Jun 2022 – Jun 2022",
     description:
-      "Built a portfolio website using React and Express.js as part of a live project.",
+      "Completed a web development internship focused on UI design and static website implementation, ensuring cross-browser compatibility and mobile responsiveness.",
     longDescription:
-      "During my internship at Peace Solutions, I built a portfolio website using React on the frontend and Express.js on the backend. I implemented routing, reusable UI components, and an API layer that served dynamic content from the server. I also worked on deploying the project, managing environment variables, and setting up basic logging. This was one of my first experiences shipping a complete end-to-end web application and it helped me understand how front-end and back-end pieces fit together.",
-  },
-  {
-    role: "Teach Director & Volunteer",
-    company: "Rotaract Club of Ahmedabad Eleos",
-    period: "Volunteer Experience",
-    description:
-      "Led and contributed to 9+ teaching and community projects as Teach Director.",
-    longDescription:
-      "At the Rotaract Club of Ahmedabad Eleos, I served as Teach Director and actively volunteered across more than nine projects. I was involved in planning and conducting teaching sessions for underprivileged students, coordinating with other volunteers, and designing simple learning materials. Beyond teaching, I helped with event logistics, communication, and reporting impact back to the club. This experience significantly improved my leadership, communication, and teamwork skills, and reinforced my interest in using technology and education to create meaningful impact.",
+      "At Silver Touch Technologies Ltd, I completed a web development internship focused on UI design and static website implementation. I designed and coded responsive layouts using HTML and CSS, ensuring cross-browser compatibility and mobile responsiveness. I built multiple user interface prototypes for client facing applications, collaborated with senior developers to translate wireframes into clean front end code, and assisted in basic database integration planning for dynamic pages.",
   },
 ];
 

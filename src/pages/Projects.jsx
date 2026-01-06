@@ -10,75 +10,60 @@ const pageVariants = {
 
 const projects = [
   {
-    title: "FriendNest",
+    title: "Implied Volatility Surface and Arbitrage Detection",
     description:
-      "A modern social platform for connecting with language exchange partners through real-time chat and video calling.",
-    tech: ["React", "Node.js", "MongoDB", "Stream.io"],
-    github: "https://github.com/chauhanavi21/FriendNest",
-    live: "https://friendnest-56q7.onrender.com/",
+      "Built a real-time volatility surface dashboard using the Black-Scholes model and live market data from yfinance. Computed implied volatility for European call options across multiple strikes and maturities. Detected butterfly arbitrage and visualized 3D IV surfaces and smiles using Plotly and Streamlit.",
+    tech: ["Python", "yfinance", "Plotly", "Streamlit", "Black-Scholes"],
+    github: "#",
   },
   {
-    title: "FinVista",
+    title: "Exotic Derivatives Pricing and Sensitivity Analysis",
     description:
-      "A financial analytics tool providing portfolio insights, sentiment tracking, and optimization.",
-    tech: ["React", "Flask", "yFinance", "PyPortfolioOpt"],
-    github: "https://github.com/chauhanavi21/FinVista",
+      "Designed and executed Monte Carlo simulations (10,000+ iterations) using the Euler-Maruyama method to price exotic options, achieving accurate pricing for Asian and Lookback options. Conducted sensitivity analysis with Finite Difference Methods to compute Greeks (Delta, Gamma, Vega, Theta) and analyzed the effect of market parameters on option prices.",
+    tech: ["Python", "Monte Carlo", "Finite Difference Methods", "Euler-Maruyama"],
+    github: "#",
   },
   {
-    title: "Online Exam Monitoring System",
+    title: "Invoice Generation App",
     description:
-      "AI-driven system for live exam supervision using facial recognition, object detection, and cheat detection.",
-    tech: ["Python", "OpenCV", "React", "FastAPI"],
-    github: "https://github.com/chauhanavi21/Online-Exam-Monitoring-System",
+      "An application that creates PDF invoices from Excel files. Automates invoice generation process with support for custom headers, company logos, and pricing calculations. Streamlines billing workflow by converting spreadsheet data into professional PDF invoices.",
+    tech: ["Python"],
+    github: "https://github.com/Heetm77/app5-invoice-generation",
   },
   {
-    title: "Football Analysis System",
+    title: "News API Email",
     description:
-      "Vision-based football analysis engine with tracking, metrics, and performance insights.",
-    tech: ["Python", "YOLO", "OpenCV", "Analytics"],
-    github: "https://github.com/chauhanavi21/Football_Analysis_System",
+      "Fetches the latest news for a chosen topic via NewsAPI and prepares the results for email delivery. Currently prints article titles and descriptions to stdout; easily extendable to send via SMTP or email providers.",
+    tech: ["Python", "Requests"],
+    github: "https://github.com/Heetm77/app-6-news-api-email",
   },
   {
-    title: "Attendance Management System",
+    title: "Weather Data API",
     description:
-      "Automated attendance tracking using face recognition and a simple dashboard.",
-    tech: ["Python", "FastAPI", "SQLModel", "React"],
-    github: "https://github.com/chauhanavi21/Attendance_system",
+      "Flask API serving historical temperature data from local datasets. Provides endpoints for single-date temperatures, full-station data, and yearly subsets without external API calls at runtime.",
+    tech: ["Python", "Flask", "Pandas"],
+    github: "https://github.com/Heetm77/app-7-your-weather-api",
   },
   {
-    title: "FinBridge",
+    title: "Weather Forecast Dashboard",
     description:
-      "Fintech dashboard integrating multiple APIs for real-time portfolio and sentiment data.",
-    tech: ["Next.js", "Node.js", "MongoDB"],
-    github: "https://github.com/chauhanavi21/FinBridge",
+      "Interactive Streamlit app that visualizes OpenWeatherMap 5-day forecasts. Users pick a city and days ahead to view temperature trends or sky conditions with Plotly charts and weather icons.",
+    tech: ["Python", "Streamlit", "Plotly", "Requests", "OpenWeatherMap"],
+    github: "https://github.com/Heetm77/app-8-weather-data-forecast-app",
   },
   {
-    title: "Intelligent Arts",
+    title: "Student Management System (PyQt6 + MySQL)",
     description:
-      "A creative AI-driven platform around books, authors, and curated content.",
-    tech: ["React", "Vite", "Tailwind CSS"],
-    github: "https://github.com/chauhanavi21/Intelligent-arts",
+      "Desktop app to create, view, update, search, and delete student records. PyQt6 GUI backed by MySQL with dialogs for add/edit/delete, search by name, and a table view of all students.",
+    tech: ["Python", "PyQt6", "MySQL", "PyMySQL"],
+    github: "https://github.com/Heetm77/app-15-student-management-system-with-mysql",
   },
   {
-    title: "Course Master",
+    title: "Super Mario Python",
     description:
-      "AI-powered LMS platform with course management, automation, and companion features.",
-    tech: ["Next.js", "Supabase", "PostgreSQL"],
-    github: "https://github.com/chauhanavi21/Course_Master",
-  },
-  {
-    title: "InkBound",
-    description:
-      "Story app with genres, read-aloud support, and page-flip style reading experience.",
-    tech: ["React Native", "Expo", "OpenAI"],
-    github: "https://github.com/chauhanavi21/InkBound",
-  },
-  {
-    title: "QVisor",
-    description:
-      "Quantum-assisted visual reasoning toolkit combining computer vision and simulation.",
-    tech: ["Python", "FastAPI", "Vision", "Research"],
-    github: "https://github.com/chauhanavi21/Qvisor",
+      "Super Mario Implementation in Python. This is inspired by Meth-Meth-Method's super mario game. A classic game implementation using pygame with full game mechanics including player movement, enemies, and level design.",
+    tech: ["Python", "pygame", "scipy"],
+    github: "https://github.com/Heetm77/super-mario-python",
   },
 ];
 

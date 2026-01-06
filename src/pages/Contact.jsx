@@ -30,8 +30,7 @@ const Contact = () => {
         </div>
 
         {/* CONTENT GRID */}
-        <div className="grid md:grid-cols-2 gap-10">
-          {/* Left: contact options */}
+        <div className="max-w-2xl mx-auto">
           <div className="space-y-5">
             <div className="bg-[#202020] border border-gray-800 rounded-xl p-4 flex gap-4 items-start">
               <FaEnvelope className="text-[#e85a85] mt-1" size={20} />
@@ -41,10 +40,10 @@ const Contact = () => {
                   Best way to reach me directly.
                 </p>
                 <a
-                  href="mailto:chauhanavi843@gmail.com"
+                  href="mailto:hnm1@fordham.edu"
                   className="text-sm text-[#e85a85] hover:underline"
                 >
-                  chauhanavi843@gmail.com
+                  hnm1@fordham.edu
                 </a>
               </div>
             </div>
@@ -57,7 +56,7 @@ const Contact = () => {
                   Open to virtual coffee chats about tech, AI, or careers.
                 </p>
                 <a
-                  href="https://www.linkedin.com/in/avi-chauhan-1678a4204/"
+                  href="https://www.linkedin.com/in/heetnirajmehta/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-[#e85a85] hover:underline"
@@ -74,10 +73,10 @@ const Contact = () => {
                   Collaborations
                 </h2>
                 <p className="text-xs text-gray-400 mb-1">
-                  I’m always interested in meaningful projects and ideas.
+                  I'm always interested in meaningful projects and ideas.
                 </p>
                 <a
-                  href="https://www.linkedin.com/in/avi-chauhan-1678a4204/"
+                  href="https://www.linkedin.com/in/heetnirajmehta/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-[#e85a85] hover:underline"
@@ -86,52 +85,6 @@ const Contact = () => {
                 </a>
               </div>
             </div>
-          </div>
-
-          {/* Right: message form */}
-          <div className="bg-[#202020] border border-gray-800 rounded-xl p-6 shadow-lg">
-            <h2 className="text-2xl font-semibold mb-4 text-center md:text-left">
-              Send a Message
-            </h2>
-            <form
-              onSubmit={(e) => {
-                e.preventDefault();
-                window.location.href =
-                  "mailto:chauhanavi843@gmail.com?subject=Portfolio%20Message";
-              }}
-              className="space-y-4"
-            >
-              <div>
-                <label className="block text-xs mb-1">Name</label>
-                <input
-                  type="text"
-                  className="w-full bg-[#151515] border border-gray-700 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-[#e85a85]"
-                  placeholder="Your name"
-                />
-              </div>
-              <div>
-                <label className="block text-xs mb-1">Email</label>
-                <input
-                  type="email"
-                  className="w-full bg-[#151515] border border-gray-700 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-[#e85a85]"
-                  placeholder="your.email@example.com"
-                />
-              </div>
-              <div>
-                <label className="block text-xs mb-1">Message</label>
-                <textarea
-                  rows="4"
-                  className="w-full bg-[#151515] border border-gray-700 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-[#e85a85]"
-                  placeholder="Tell me about your idea or question..."
-                />
-              </div>
-              <button
-                type="submit"
-                className="w-full bg-[#e85a85] hover:bg-[#ff7b9d] text-white text-sm font-semibold rounded-lg py-2 transition-all"
-              >
-                Send Message
-              </button>
-            </form>
           </div>
         </div>
       </div>
