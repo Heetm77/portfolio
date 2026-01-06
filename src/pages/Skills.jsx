@@ -9,17 +9,35 @@ const pageVariants = {
 
 const skillGroups = [
   {
-    title: "Software Skills",
-    items: "Python, SQL, HTML, CSS",
+    title: "Programming",
+    items: "Python, C++, R",
   },
   {
-    title: "Other Technical Skills",
+    title: "Quantitative Finance",
     items:
-      "Derivatives Pricing (Black Scholes Model), Value-at-Risk (VaR) Analysis (Monte Carlo Simulation), Back-testing, Object Oriented Programming (OOP), Linear Regression, Random Forest",
+      "Derivatives Pricing (Black Scholes, Monte Carlo), Implied Volatility & Volatility Surface Modeling, Yield Curve Modeling (Nelson Siegel, Nelson Siegel Svensson), Portfolio Risk Metrics (Beta, VaR, Expected Shortfall), Backtesting and Model Validation (Kupiec Test), Time Series Analysis",
   },
   {
-    title: "Tools and Technologies",
-    items: "MS Excel, MS Word, MS PowerPoint, Git, Bloomberg Terminal, Kaggle",
+    title: "Statistics & Machine Learning",
+    items:
+      "Probability and Statistics, Stochastic Calculus, Regression, Classification, Clustering, Decision Trees, Feature Engineering, Model Training and Evaluation, Scikit-Learn",
+  },
+  {
+    title: "Data Analysis & Visualization",
+    items: "Pandas, NumPy, Matplotlib, Excel",
+  },
+  {
+    title: "Financial & Market Data",
+    items:
+      "Options Chains, Equity & Fixed Income Data, Real Time Market Data Analysis, Bloomberg Terminal",
+  },
+  {
+    title: "Software Engineering & Systems",
+    items: "Data Structures & Algorithms, Object Oriented Programming",
+  },
+  {
+    title: "Tools and Platforms",
+    items: "Git, GitHub, Streamlit",
   },
 ];
 
