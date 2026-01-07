@@ -19,7 +19,7 @@ const Hero = () => {
       <p className="text-gray-400 text-lg">Hello, I'm</p>
       <h1 className="text-4xl md:text-5xl font-bold mt-1 text-white">Heet Mehta</h1>
       <h2 className="text-xl md:text-2xl text-gray-400 mt-1">
-        First year masters in Quantitative Finance student at Fordham University, Gabelli School of Business
+        Graduate student in Quantitative Finance at Fordham University, Gabelli School of Business
       </h2>
 
       <div className="flex flex-wrap justify-center gap-4 mt-6">
