@@ -18,7 +18,7 @@ const Hero = () => {
       />
       <p className="text-gray-400 text-lg">Hello, I'm</p>
       <h1 className="text-4xl md:text-5xl font-bold mt-1 text-white">Heet Mehta</h1>
-      <h2 className="text-xl md:text-2xl text-gray-400 mt-1">
+      <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-400 mt-1 px-4 max-w-4xl">
         Graduate student in Quantitative Finance at Fordham University, Gabelli School of Business
       </h2>
 

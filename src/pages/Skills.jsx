@@ -57,15 +57,15 @@ const Skills = () => {
           A snapshot of the technologies and concepts I work with.
         </p>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-4 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {skillGroups.map((group, i) => (
             <motion.div
               key={i}
               whileHover={{ y: -4 }}
-              className="bg-[#202020] border border-gray-800 rounded-xl p-5 shadow-md"
+              className="bg-[#202020] border border-gray-800 rounded-xl p-4 sm:p-5 shadow-md"
             >
-              <h2 className="text-lg font-semibold mb-2">{group.title}</h2>
-              <p className="text-sm text-gray-300 leading-relaxed">
+              <h2 className="text-base sm:text-lg font-semibold mb-2">{group.title}</h2>
+              <p className="text-xs sm:text-sm text-gray-300 leading-relaxed">
                 {group.items}
               </p>
             </motion.div>

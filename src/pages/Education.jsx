@@ -22,7 +22,7 @@ const education = [
   {
     institution: "California State University, San Bernardino & Ahmedabad Management Association (Joint Degree)",
     location: "San Bernardino, CA & Ahmedabad, Gujarat, India",
-    degree: "Post Graduate Diploma, Financial Management",
+    degree: "Post Graduate Diploma, Financial Management, Gold Medalist",
     period: "July 2024 – May 2025",
     details: [
       "Relevant Coursework: Risk Management, Capital Budgeting, Mergers and Acquisitions (M&A), Financial Statement Analysis, Personal Finance, Foreign Exchange",
@@ -66,11 +66,11 @@ const Education = () => {
               key={i}
               whileHover={{ y: -4 }}
               onClick={() => setSelected(edu)}
-              className="w-full text-left bg-[#202020] border border-gray-800 rounded-xl p-5 shadow-md hover:shadow-lg transition-all focus:outline-none"
+              className="w-full text-left bg-[#202020] border border-gray-800 rounded-xl p-4 sm:p-5 shadow-md hover:shadow-lg transition-all focus:outline-none"
             >
-              <h2 className="text-xl font-semibold mb-1">{edu.institution}</h2>
-              <p className="text-sm text-gray-300 mb-1">{edu.location}</p>
-              <p className="text-sm text-purple-400 mb-1">{edu.degree}</p>
+              <h2 className="text-lg sm:text-xl font-semibold mb-1 break-words">{edu.institution}</h2>
+              <p className="text-xs sm:text-sm text-gray-300 mb-1 break-words">{edu.location}</p>
+              <p className="text-xs sm:text-sm text-purple-400 mb-1 break-words">{edu.degree}</p>
               <p className="text-xs text-gray-400 mb-3">{edu.period}</p>
               <p className="text-xs text-[#e85a85] mt-2">
                 Click to read more
@@ -82,29 +82,29 @@ const Education = () => {
 
       {/* Modal for details */}
       {selected && (
-        <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50 px-4">
-          <div className="bg-[#202020] border border-gray-700 rounded-xl max-w-3xl w-full max-h-[80vh] overflow-y-auto p-6 shadow-xl">
-            <div className="flex items-start justify-between mb-3">
-              <div>
-                <h2 className="text-2xl font-semibold mb-1">
+        <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50 px-4 py-4">
+          <div className="bg-[#202020] border border-gray-700 rounded-xl max-w-3xl w-full max-h-[90vh] sm:max-h-[80vh] overflow-y-auto p-4 sm:p-6 shadow-xl">
+            <div className="flex items-start justify-between mb-3 gap-2">
+              <div className="flex-1 min-w-0">
+                <h2 className="text-xl sm:text-2xl font-semibold mb-1 break-words">
                   {selected.institution}
                 </h2>
-                <p className="text-sm text-gray-300 mb-1">{selected.location}</p>
-                <p className="text-sm text-purple-400 mb-1">{selected.degree}</p>
+                <p className="text-xs sm:text-sm text-gray-300 mb-1 break-words">{selected.location}</p>
+                <p className="text-xs sm:text-sm text-purple-400 mb-1 break-words">{selected.degree}</p>
                 <p className="text-xs text-gray-400 mt-1">
                   {selected.period}
                 </p>
               </div>
               <button
                 onClick={() => setSelected(null)}
-                className="text-sm text-gray-400 hover:text-white ml-4"
+                className="text-sm text-gray-400 hover:text-white ml-2 sm:ml-4 flex-shrink-0"
               >
                 Close
               </button>
             </div>
             <div className="space-y-3">
               {selected.details.map((detail, index) => (
-                <p key={index} className="text-sm text-gray-200 leading-relaxed">
+                <p key={index} className="text-xs sm:text-sm text-gray-200 leading-relaxed">
                   {detail}
                 </p>
               ))}

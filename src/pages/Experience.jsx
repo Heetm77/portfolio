@@ -41,9 +41,9 @@ const experiences = [
     company: "Silver Touch Technologies Ltd, Ahmedabad, Gujarat, India",
     period: "Jun 2022 – Jun 2022",
     description:
-      "Completed a web development internship focused on UI design and static website implementation, ensuring cross-browser compatibility and mobile responsiveness.",
+      "Completed a web development internship focused on UI design and static website implementation, ensuring cross browser compatibility and mobile responsiveness.",
     longDescription:
-      "At Silver Touch Technologies Ltd, I completed a web development internship focused on UI design and static website implementation. I designed and coded responsive layouts using HTML and CSS, ensuring cross-browser compatibility and mobile responsiveness. I built multiple user interface prototypes for client facing applications, collaborated with senior developers to translate wireframes into clean front end code, and assisted in basic database integration planning for dynamic pages.",
+      "At Silver Touch Technologies Ltd, I completed a web development internship focused on UI design and static website implementation. I designed and coded responsive layouts using HTML and CSS, ensuring cross browser compatibility and mobile responsiveness. I built multiple user interface prototypes for client facing applications, collaborated with senior developers to translate wireframes into clean front end code, and assisted in basic database integration planning for dynamic pages.",
   },
 ];
 
@@ -64,7 +64,7 @@ const Experience = () => {
           Experience
         </h1>
         <p className="text-gray-300 mb-8 text-sm md:text-base text-center">
-          A snapshot of internships and roles I’ve taken on so far.
+          A snapshot of my professional experience, including internships and roles to date.
         </p>
 
         <div className="space-y-5">
@@ -73,12 +73,12 @@ const Experience = () => {
               key={i}
               whileHover={{ y: -4 }}
               onClick={() => setSelected(exp)}
-              className="w-full text-left bg-[#202020] border border-gray-800 rounded-xl p-5 shadow-md hover:shadow-lg transition-all focus:outline-none"
+              className="w-full text-left bg-[#202020] border border-gray-800 rounded-xl p-4 sm:p-5 shadow-md hover:shadow-lg transition-all focus:outline-none"
             >
-              <h2 className="text-xl font-semibold mb-1">{exp.role}</h2>
-              <p className="text-sm text-gray-300 mb-1">{exp.company}</p>
+              <h2 className="text-lg sm:text-xl font-semibold mb-1">{exp.role}</h2>
+              <p className="text-xs sm:text-sm text-gray-300 mb-1 break-words">{exp.company}</p>
               <p className="text-xs text-gray-400 mb-3">{exp.period}</p>
-              <p className="text-sm text-gray-300">{exp.description}</p>
+              <p className="text-xs sm:text-sm text-gray-300">{exp.description}</p>
               <p className="text-xs text-[#e85a85] mt-2">
                 Click to read more
               </p>
@@ -89,26 +89,26 @@ const Experience = () => {
 
       {/* Modal for long description */}
       {selected && (
-        <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50 px-4">
-          <div className="bg-[#202020] border border-gray-700 rounded-xl max-w-3xl w-full max-h-[80vh] overflow-y-auto p-6 shadow-xl">
-            <div className="flex items-start justify-between mb-3">
-              <div>
-                <h2 className="text-2xl font-semibold mb-1">
+        <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50 px-4 py-4">
+          <div className="bg-[#202020] border border-gray-700 rounded-xl max-w-3xl w-full max-h-[90vh] sm:max-h-[80vh] overflow-y-auto p-4 sm:p-6 shadow-xl">
+            <div className="flex items-start justify-between mb-3 gap-2">
+              <div className="flex-1 min-w-0">
+                <h2 className="text-xl sm:text-2xl font-semibold mb-1 break-words">
                   {selected.role}
                 </h2>
-                <p className="text-sm text-gray-300">{selected.company}</p>
+                <p className="text-xs sm:text-sm text-gray-300 break-words">{selected.company}</p>
                 <p className="text-xs text-gray-400 mt-1">
                   {selected.period}
                 </p>
               </div>
               <button
                 onClick={() => setSelected(null)}
-                className="text-sm text-gray-400 hover:text-white ml-4"
+                className="text-sm text-gray-400 hover:text-white ml-2 sm:ml-4 flex-shrink-0"
               >
                 Close
               </button>
             </div>
-            <p className="text-sm text-gray-200 leading-relaxed">
+            <p className="text-xs sm:text-sm text-gray-200 leading-relaxed">
               {selected.longDescription}
             </p>
           </div>

@@ -80,7 +80,7 @@ const Projects = () => {
       <div className="max-w-7xl mx-auto">
         <h1 className="text-3xl md:text-4xl font-bold mb-2 text-center">Projects</h1>
         <p className="text-gray-300 mb-8 text-sm md:text-base text-center">
-          A selection of projects I’ve built across AI, web, and systems.
+          A selection of projects I've built across AI, web, and finance.
         </p>
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -90,8 +90,8 @@ const Projects = () => {
               whileHover={{ y: -5 }}
               className="bg-[#202020] border border-gray-800 rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300"
             >
-              <div className="flex justify-between items-start mb-3">
-                <h2 className="text-lg font-semibold">{project.title}</h2>
+              <div className="flex justify-between items-start mb-3 gap-2">
+                <h2 className="text-base sm:text-lg font-semibold flex-1">{project.title}</h2>
                 <a
                   href={project.github}
                   target="_blank"
