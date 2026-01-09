@@ -12,7 +12,7 @@ const experiences = [
   {
     role: "Portfolio Management Intern",
     company: "Shagun Wealth, Ahmedabad, Gujarat, India",
-    period: "May 2024 – Jun 2024",
+    period: "May 2024 to Jun 2024",
     description:
       "Assisted in managing high net worth client portfolios totaling $500M AUM by conducting NAV trend analysis and portfolio beta assessment.",
     longDescription:
@@ -21,7 +21,7 @@ const experiences = [
   {
     role: "Project Intern, Software Development",
     company: "Silver Touch Technologies Ltd, Ahmedabad, Gujarat, India",
-    period: "Jan 2024 – Apr 2024",
+    period: "Jan 2024 to Apr 2024",
     description:
       "Led the development of a front end flight booking system using Flutter, Dart, HTML, and CSS, improving load speed by 30% and reducing booking effort by 40%.",
     longDescription:
@@ -30,7 +30,7 @@ const experiences = [
   {
     role: "Intern, Python Development",
     company: "Silver Touch Technologies Ltd, Ahmedabad, Gujarat, India",
-    period: "May 2023 – Jul 2023",
+    period: "May 2023 to Jul 2023",
     description:
       "Developed finance domain application using Python and PostgreSQL, contributing to internal tools that reduced reporting time for the finance team by 25%.",
     longDescription:
@@ -39,7 +39,7 @@ const experiences = [
   {
     role: "Intern, Web Development",
     company: "Silver Touch Technologies Ltd, Ahmedabad, Gujarat, India",
-    period: "Jun 2022 – Jun 2022",
+    period: "Jun 2022 to Jun 2022",
     description:
       "Completed a web development internship focused on UI design and static website implementation, ensuring cross browser compatibility and mobile responsiveness.",
     longDescription:

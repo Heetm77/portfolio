@@ -13,7 +13,7 @@ const education = [
     institution: "Fordham University, Gabelli School of Business",
     location: "New York, NY",
     degree: "MS, Quantitative Finance Student, Dean's Scholarship Recipient",
-    period: "August 2025 – December 2026",
+    period: "August 2025 to December 2026",
     details: [
       "Relevant Coursework: Derivatives, Financial Markets and Modeling, Financial Programming, Machine Learning and Econometrics, Probability and Statistics, Math for Quantitative Finance, Introduction to Stochastic Calculus",
       "Member of the Quantitative Finance Society, Investments Club, and Capital Markets Club",
@@ -23,7 +23,7 @@ const education = [
     institution: "California State University, San Bernardino & Ahmedabad Management Association (Joint Degree)",
     location: "San Bernardino, CA & Ahmedabad, Gujarat, India",
     degree: "Post Graduate Diploma, Financial Management, Gold Medalist",
-    period: "July 2024 – May 2025",
+    period: "July 2024 to May 2025",
     details: [
       "Relevant Coursework: Risk Management, Capital Budgeting, Mergers and Acquisitions (M&A), Financial Statement Analysis, Personal Finance, Foreign Exchange",
     ],
@@ -32,7 +32,7 @@ const education = [
     institution: "Indus Institute of Technology and Engineering",
     location: "Ahmedabad, Gujarat, India",
     degree: "Bachelors, Computer Science and Engineering, GPA 3.57/4.00",
-    period: "September 2020 – April 2024",
+    period: "September 2020 to April 2024",
     details: [
       "Relevant Coursework: Linear Algebra, Calculus, Differential Equations, Data Science",
       "President of the Sports Committee; organized inter-college soccer tournament with 12+ universities across the city",

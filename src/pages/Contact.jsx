@@ -25,7 +25,7 @@ const Contact = () => {
           <h1 className="text-3xl md:text-4xl font-bold mb-2">Contact</h1>
           <p className="text-gray-300 text-sm md:text-base">
             Whether it’s a project idea, collaboration, or just a question about
-            something I’ve built — I’m happy to connect.
+            something I've built, I'm happy to connect.
           </p>
         </div>
 

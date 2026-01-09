@@ -13,7 +13,7 @@ const achievements = [
     title: "Gold Medal Winner",
     description: "Post Graduate Diploma in Financial Management",
     institution: "California State University, San Bernardino & Ahmedabad Management Association",
-    period: "2024 - 2025",
+    period: "2024 to 2025",
   },
 ];
 
