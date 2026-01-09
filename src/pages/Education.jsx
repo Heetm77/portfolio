@@ -21,7 +21,7 @@ const education = [
   },
   {
     institution: "California State University, San Bernardino & Ahmedabad Management Association (Joint Degree)",
-    location: "San Bernardino, CA & Ahmedabad, Gujarat, India",
+    location: "Ahmedabad, Gujarat, India",
     degree: "Post Graduate Diploma, Financial Management, Gold Medalist",
     period: "July 2024 to May 2025",
     details: [
@@ -82,8 +82,14 @@ const Education = () => {
 
       {/* Modal for details */}
       {selected && (
-        <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50 px-4 py-4">
-          <div className="bg-[#202020] border border-gray-700 rounded-xl max-w-3xl w-full max-h-[90vh] sm:max-h-[80vh] overflow-y-auto p-4 sm:p-6 shadow-xl">
+        <div 
+          className="fixed inset-0 bg-black/70 flex items-center justify-center z-50 px-4 py-4"
+          onClick={() => setSelected(null)}
+        >
+          <div 
+            className="bg-[#202020] border border-gray-700 rounded-xl max-w-3xl w-full max-h-[90vh] sm:max-h-[80vh] overflow-y-auto p-4 sm:p-6 shadow-xl"
+            onClick={(e) => e.stopPropagation()}
+          >
             <div className="flex items-start justify-between mb-3 gap-2">
               <div className="flex-1 min-w-0">
                 <h2 className="text-xl sm:text-2xl font-semibold mb-1 break-words">
