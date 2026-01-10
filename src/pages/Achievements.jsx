@@ -37,6 +37,27 @@ const achievements = [
     period: "February 2024",
     image: "/investment_banking.png",
   },
+  {
+    title: "AWS Academy Graduate - Cloud Foundations",
+    description: "Training Badge, 20 hours completed",
+    institution: "AWS Academy",
+    period: "September 2023",
+    image: "/heet_Aw.png",
+  },
+  {
+    title: "The Python Mega Course: Build 10 Real World Applications",
+    description: "Course Certificate",
+    institution: "Udemy, Instructor: Ardit Sulce",
+    period: "October 2021",
+    image: "/python.jpg",
+  },
+  {
+    title: "Soft Skills: The 11 Essential Career Soft Skills",
+    description: "Course Certificate",
+    institution: "Udemy, Instructor: TJ Walker",
+    period: "August 2021",
+    image: "/soft_skills.jpg",
+  },
 ];
 
 const Achievements = () => {
