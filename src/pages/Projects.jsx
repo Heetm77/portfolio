@@ -12,7 +12,7 @@ const projects = [
   {
     title: "Implied Volatility Surface and Arbitrage Detection",
     description:
-      "Built a real-time volatility surface dashboard using the Black Scholes model and live market data from yfinance. Computed implied volatility for European call options across multiple strikes and maturities. Detected butterfly arbitrage and visualized 3D IV surfaces and smiles using Plotly and Streamlit.",
+      "Built a real time volatility surface dashboard using the Black Scholes model and live market data from yfinance. Computed implied volatility for European call options across multiple strikes and maturities. Detected butterfly arbitrage and visualized 3D IV surfaces and smiles using Plotly and Streamlit.",
     tech: ["Python", "yfinance", "Plotly", "Streamlit", "Black-Scholes"],
     github: "#",
   },
@@ -33,21 +33,21 @@ const projects = [
   {
     title: "News API Email",
     description:
-      "Fetches the latest news for a chosen topic via NewsAPI and prepares the results for email delivery. Currently prints article titles and descriptions to stdout; easily extendable to send via SMTP or email providers.",
+      "Fetches the latest news for a chosen topic via NewsAPI and prepares the results for email delivery. Currently prints article titles and descriptions to stdout, easily extendable to send via SMTP or email providers.",
     tech: ["Python", "Requests"],
     github: "https://github.com/Heetm77/app-6-news-api-email",
   },
   {
     title: "Weather Data API",
     description:
-      "Flask API serving historical temperature data from local datasets. Provides endpoints for single-date temperatures, full-station data, and yearly subsets without external API calls at runtime.",
+      "Flask API serving historical temperature data from local datasets. Provides endpoints for single date temperatures, full station data, and yearly subsets without external API calls at runtime.",
     tech: ["Python", "Flask", "Pandas"],
     github: "https://github.com/Heetm77/app-7-your-weather-api",
   },
   {
     title: "Weather Forecast Dashboard",
     description:
-      "Interactive Streamlit app that visualizes OpenWeatherMap 5-day forecasts. Users pick a city and days ahead to view temperature trends or sky conditions with Plotly charts and weather icons.",
+      "Interactive Streamlit app that visualizes OpenWeatherMap 5 day forecasts. Users pick a city and days ahead to view temperature trends or sky conditions with Plotly charts and weather icons.",
     tech: ["Python", "Streamlit", "Plotly", "Requests", "OpenWeatherMap"],
     github: "https://github.com/Heetm77/app-8-weather-data-forecast-app",
   },
@@ -96,7 +96,7 @@ const projects = [
   {
     title: "PDF Template Generator",
     description:
-      "Python application that generates PDF templates with ruled lines for note-taking from CSV files. Creates customizable PDFs with topic headers, footers, and automatic page management for each topic section.",
+      "Python application that generates PDF templates with ruled lines for note taking from CSV files. Creates customizable PDFs with topic headers, footers, and automatic page management for each topic section.",
     tech: ["Python", "FPDF", "Pandas"],
     github: "https://github.com/Heetm77/pdf-template",
   },
