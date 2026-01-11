@@ -12,14 +12,14 @@ const projects = [
   {
     title: "Implied Volatility Surface and Arbitrage Detection",
     description:
-      "Built a real-time volatility surface dashboard using the Black-Scholes model and live market data from yfinance. Computed implied volatility for European call options across multiple strikes and maturities. Detected butterfly arbitrage and visualized 3D IV surfaces and smiles using Plotly and Streamlit.",
+      "Built a real-time volatility surface dashboard using the Black Scholes model and live market data from yfinance. Computed implied volatility for European call options across multiple strikes and maturities. Detected butterfly arbitrage and visualized 3D IV surfaces and smiles using Plotly and Streamlit.",
     tech: ["Python", "yfinance", "Plotly", "Streamlit", "Black-Scholes"],
     github: "#",
   },
   {
     title: "Exotic Derivatives Pricing and Sensitivity Analysis",
     description:
-      "Designed and executed Monte Carlo simulations (10,000+ iterations) using the Euler-Maruyama method to price exotic options, achieving accurate pricing for Asian and Lookback options. Conducted sensitivity analysis with Finite Difference Methods to compute Greeks (Delta, Gamma, Vega, Theta) and analyzed the effect of market parameters on option prices.",
+      "Designed and executed Monte Carlo simulations (10,000+ iterations) using the Euler Maruyama method to price exotic options, achieving accurate pricing for Asian and Lookback options. Conducted sensitivity analysis with Finite Difference Methods to compute Greeks (Delta, Gamma, Vega, Theta) and analyzed the effect of market parameters on option prices.",
     tech: ["Python", "Monte Carlo", "Finite Difference Methods", "Euler-Maruyama"],
     github: "#",
   },
@@ -75,21 +75,21 @@ const projects = [
   {
     title: "Derivatives Pricing Library",
     description:
-      "Comprehensive Python library for derivatives pricing and risk modeling using Black-Scholes, Monte Carlo simulation, and Binomial Tree methods. Includes Greeks calculation, Value-at-Risk (VaR), and risk metrics.",
+      "Comprehensive Python library for derivatives pricing and risk modeling using Black Scholes, Monte Carlo simulation, and Binomial Tree methods. Includes Greeks calculation, Value at Risk (VaR), and risk metrics.",
     tech: ["Python", "NumPy", "SciPy", "Pandas", "Black-Scholes", "Monte Carlo"],
     github: "https://github.com/Heetm77/derivatives-pricing",
   },
   {
     title: "Flask Job Application Form",
     description:
-      "Flask web application with an interactive job application form. Stores submissions in SQLite database using SQLAlchemy and sends confirmation emails to applicants using Flask-Mail with Bootstrap-styled UI.",
+      "Flask web application with an interactive job application form. Stores submissions in SQLite database using SQLAlchemy and sends confirmation emails to applicants using Flask Mail with Bootstrap styled UI.",
     tech: ["Python", "Flask", "SQLAlchemy", "Flask-Mail", "SQLite", "Bootstrap"],
     github: "https://github.com/Heetm77/flask-form",
   },
   {
     title: "Hotel Booking System",
     description:
-      "Command-line hotel booking system with credit card validation and reservation ticket generation. Features OOP design with support for spa packages, secure credit card authentication, and CSV-based data storage.",
+      "Command line hotel booking system with credit card validation and reservation ticket generation. Features OOP design with support for spa packages, secure credit card authentication, and CSV based data storage.",
     tech: ["Python", "Pandas", "CSV"],
     github: "https://github.com/Heetm77/hotel-booking",
   },
@@ -103,7 +103,7 @@ const projects = [
   {
     title: "Tour Events Web Scraper",
     description:
-      "Web scraping application that monitors websites for upcoming tour events, stores them in SQLite database, and sends email notifications when new events are discovered. Uses YAML-based selectors for flexible data extraction.",
+      "Web scraping application that monitors websites for upcoming tour events, stores them in SQLite database, and sends email notifications when new events are discovered. Uses YAML based selectors for flexible data extraction.",
     tech: ["Python", "Requests", "SQLite", "SelectorLib", "YAML"],
     github: "https://github.com/Heetm77/scraping-tours-sql",
   },
