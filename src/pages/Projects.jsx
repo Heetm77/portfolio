@@ -65,6 +65,55 @@ const projects = [
     tech: ["Python", "pygame", "scipy"],
     github: "https://github.com/Heetm77/super-mario-python",
   },
+  {
+    title: "Browser Automation with Selenium",
+    description:
+      "Python application that automates web browser interactions using Selenium WebDriver. Demonstrates automated login, form filling, and file downloading with both command-line and GUI interfaces built with Tkinter.",
+    tech: ["Python", "Selenium", "Tkinter", "ChromeDriver"],
+    github: "https://github.com/Heetm77/browser-automation-selenium",
+  },
+  {
+    title: "Derivatives Pricing Library",
+    description:
+      "Comprehensive Python library for derivatives pricing and risk modeling using Black-Scholes, Monte Carlo simulation, and Binomial Tree methods. Includes Greeks calculation, Value-at-Risk (VaR), and risk metrics.",
+    tech: ["Python", "NumPy", "SciPy", "Pandas", "Black-Scholes", "Monte Carlo"],
+    github: "https://github.com/Heetm77/derivatives-pricing",
+  },
+  {
+    title: "Flask Job Application Form",
+    description:
+      "Flask web application with an interactive job application form. Stores submissions in SQLite database using SQLAlchemy and sends confirmation emails to applicants using Flask-Mail with Bootstrap-styled UI.",
+    tech: ["Python", "Flask", "SQLAlchemy", "Flask-Mail", "SQLite", "Bootstrap"],
+    github: "https://github.com/Heetm77/flask-form",
+  },
+  {
+    title: "Hotel Booking System",
+    description:
+      "Command-line hotel booking system with credit card validation and reservation ticket generation. Features OOP design with support for spa packages, secure credit card authentication, and CSV-based data storage.",
+    tech: ["Python", "Pandas", "CSV"],
+    github: "https://github.com/Heetm77/hotel-booking",
+  },
+  {
+    title: "PDF Template Generator",
+    description:
+      "Python application that generates PDF templates with ruled lines for note-taking from CSV files. Creates customizable PDFs with topic headers, footers, and automatic page management for each topic section.",
+    tech: ["Python", "FPDF", "Pandas"],
+    github: "https://github.com/Heetm77/pdf-template",
+  },
+  {
+    title: "Tour Events Web Scraper",
+    description:
+      "Web scraping application that monitors websites for upcoming tour events, stores them in SQLite database, and sends email notifications when new events are discovered. Uses YAML-based selectors for flexible data extraction.",
+    tech: ["Python", "Requests", "SQLite", "SelectorLib", "YAML"],
+    github: "https://github.com/Heetm77/scraping-tours-sql",
+  },
+  {
+    title: "Student Management System (PyQt6 + SQLite)",
+    description:
+      "Desktop application for managing student records with PyQt6 GUI. Features create, view, update, search, and delete operations with SQLite database backend. Includes menu bar, dialogs, and table view interface.",
+    tech: ["Python", "PyQt6", "SQLite"],
+    github: "https://github.com/Heetm77/student-management-system",
+  },
 ];
 
 const Projects = () => {

@@ -11,10 +11,10 @@ const pageVariants = {
 const achievements = [
   {
     title: "Gold Medal Winner",
-    description: "Post Graduate Diploma in Financial Management",
-    institution: "California State University, San Bernardino & Ahmedabad Management Association",
-    period: "2024 to 2025",
-    image: null,
+    description: "Post Graduate Diploma in Financial Management - Convocation Ceremony",
+    institution: "Ahmedabad Management Association (AMA) & California State University, San Bernardino",
+    period: "May 31, 2025 (Batch: July-December 2024)",
+    image: "/achivement.jpeg",
   },
   {
     title: "Microeconomics: The Power of Markets",
