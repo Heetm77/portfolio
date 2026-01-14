@@ -9,20 +9,7 @@ const pageVariants = {
 };
 
 const projects = [
-  {
-    title: "Implied Volatility Surface and Arbitrage Detection",
-    description:
-      "Built a real time volatility surface dashboard using the Black Scholes model and live market data from yfinance. Computed implied volatility for European call options across multiple strikes and maturities. Detected butterfly arbitrage and visualized 3D IV surfaces and smiles using Plotly and Streamlit.",
-    tech: ["Python", "yfinance", "Plotly", "Streamlit", "Black-Scholes"],
-    github: "#",
-  },
-  {
-    title: "Exotic Derivatives Pricing and Sensitivity Analysis",
-    description:
-      "Designed and executed Monte Carlo simulations (10,000+ iterations) using the Euler Maruyama method to price exotic options, achieving accurate pricing for Asian and Lookback options. Conducted sensitivity analysis with Finite Difference Methods to compute Greeks (Delta, Gamma, Vega, Theta) and analyzed the effect of market parameters on option prices.",
-    tech: ["Python", "Monte Carlo", "Finite Difference Methods", "Euler-Maruyama"],
-    github: "#",
-  },
+  
   {
     title: "Invoice Generation App",
     description:
@@ -63,7 +50,7 @@ const projects = [
     description:
       "Super Mario Implementation in Python. This is inspired by Meth-Meth-Method's super mario game. A classic game implementation using pygame with full game mechanics including player movement, enemies, and level design.",
     tech: ["Python", "pygame", "scipy"],
-    github: "https://github.com/Heetm77/super-mario-python",
+    github: "https://github.com/Heetm77/Super_Mario",
   },
   {
     title: "Browser Automation with Selenium",
@@ -72,13 +59,7 @@ const projects = [
     tech: ["Python", "Selenium", "Tkinter", "ChromeDriver"],
     github: "https://github.com/Heetm77/Browser_Automation_Selenium",
   },
-  {
-    title: "Derivatives Pricing Library",
-    description:
-      "Comprehensive Python library for derivatives pricing and risk modeling using Black Scholes, Monte Carlo simulation, and Binomial Tree methods. Includes Greeks calculation, Value at Risk (VaR), and risk metrics.",
-    tech: ["Python", "NumPy", "SciPy", "Pandas", "Black-Scholes", "Monte Carlo"],
-    github: "https://github.com/Heetm77/derivatives-pricing",
-  },
+  
   {
     title: "Flask Job Application Form",
     description:
@@ -113,6 +94,27 @@ const projects = [
       "Desktop application for managing student records with PyQt6 GUI. Features create, view, update, search, and delete operations with SQLite database backend. Includes menu bar, dialogs, and table view interface.",
     tech: ["Python", "PyQt6", "SQLite"],
     github: "https://github.com/Heetm77/Student_Management_System",
+  },
+  {
+    title: "Derivatives Pricing Library",
+    description:
+      "Comprehensive Python library for derivatives pricing and risk modeling using Black Scholes, Monte Carlo simulation, and Binomial Tree methods. Includes Greeks calculation, Value at Risk (VaR), and risk metrics.",
+    tech: ["Python", "NumPy", "SciPy", "Pandas", "Black-Scholes", "Monte Carlo"],
+    github: "https://github.com/Heetm77/derivatives-pricing",
+  },
+  {
+    title: "Implied Volatility Surface and Arbitrage Detection",
+    description:
+      "Built a real time volatility surface dashboard using the Black Scholes model and live market data from yfinance. Computed implied volatility for European call options across multiple strikes and maturities. Detected butterfly arbitrage and visualized 3D IV surfaces and smiles using Plotly and Streamlit.",
+    tech: ["Python", "yfinance", "Plotly", "Streamlit", "Black-Scholes"],
+    
+  },
+  {
+    title: "Exotic Derivatives Pricing and Sensitivity Analysis",
+    description:
+      "Designed and executed Monte Carlo simulations (10,000+ iterations) using the Euler Maruyama method to price exotic options, achieving accurate pricing for Asian and Lookback options. Conducted sensitivity analysis with Finite Difference Methods to compute Greeks (Delta, Gamma, Vega, Theta) and analyzed the effect of market parameters on option prices.",
+    tech: ["Python", "Monte Carlo", "Finite Difference Methods", "Euler-Maruyama"],
+    
   },
 ];
 
