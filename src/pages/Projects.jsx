@@ -28,35 +28,35 @@ const projects = [
     description:
       "An application that creates PDF invoices from Excel files. Automates invoice generation process with support for custom headers, company logos, and pricing calculations. Streamlines billing workflow by converting spreadsheet data into professional PDF invoices.",
     tech: ["Python"],
-    github: "https://github.com/Heetm77/app5-invoice-generation",
+    github: "https://github.com/Heetm77/Invoice_Generation",
   },
   {
     title: "News API Email",
     description:
       "Fetches the latest news for a chosen topic via NewsAPI and prepares the results for email delivery. Currently prints article titles and descriptions to stdout, easily extendable to send via SMTP or email providers.",
     tech: ["Python", "Requests"],
-    github: "https://github.com/Heetm77/app-6-news-api-email",
+    github: "https://github.com/Heetm77/News_Api_Email",
   },
   {
     title: "Weather Data API",
     description:
       "Flask API serving historical temperature data from local datasets. Provides endpoints for single date temperatures, full station data, and yearly subsets without external API calls at runtime.",
     tech: ["Python", "Flask", "Pandas"],
-    github: "https://github.com/Heetm77/app-7-your-weather-api",
+    github: "https://github.com/Heetm77/Your_Weather_Api",
   },
   {
     title: "Weather Forecast Dashboard",
     description:
       "Interactive Streamlit app that visualizes OpenWeatherMap 5 day forecasts. Users pick a city and days ahead to view temperature trends or sky conditions with Plotly charts and weather icons.",
     tech: ["Python", "Streamlit", "Plotly", "Requests", "OpenWeatherMap"],
-    github: "https://github.com/Heetm77/app-8-weather-data-forecast-app",
+    github: "https://github.com/Heetm77/Weather_Data_Forecast_App",
   },
   {
     title: "Student Management System (PyQt6 + MySQL)",
     description:
       "Desktop app to create, view, update, search, and delete student records. PyQt6 GUI backed by MySQL with dialogs for add/edit/delete, search by name, and a table view of all students.",
     tech: ["Python", "PyQt6", "MySQL", "PyMySQL"],
-    github: "https://github.com/Heetm77/app-15-student-management-system-with-mysql",
+    github: "https://github.com/Heetm77/Student_Management_System_With_mysql",
   },
   {
     title: "Super Mario Python",
@@ -70,7 +70,7 @@ const projects = [
     description:
       "Python application that automates web browser interactions using Selenium WebDriver. Demonstrates automated login, form filling, and file downloading with both command-line and GUI interfaces built with Tkinter.",
     tech: ["Python", "Selenium", "Tkinter", "ChromeDriver"],
-    github: "https://github.com/Heetm77/browser-automation-selenium",
+    github: "https://github.com/Heetm77/Browser_Automation_Selenium",
   },
   {
     title: "Derivatives Pricing Library",
@@ -84,35 +84,35 @@ const projects = [
     description:
       "Flask web application with an interactive job application form. Stores submissions in SQLite database using SQLAlchemy and sends confirmation emails to applicants using Flask Mail with Bootstrap styled UI.",
     tech: ["Python", "Flask", "SQLAlchemy", "Flask-Mail", "SQLite", "Bootstrap"],
-    github: "https://github.com/Heetm77/flask-form",
+    github: "https://github.com/Heetm77/Flask_Form",
   },
   {
     title: "Hotel Booking System",
     description:
       "Command line hotel booking system with credit card validation and reservation ticket generation. Features OOP design with support for spa packages, secure credit card authentication, and CSV based data storage.",
     tech: ["Python", "Pandas", "CSV"],
-    github: "https://github.com/Heetm77/hotel-booking",
+    github: "https://github.com/Heetm77/Hotel_Booking",
   },
   {
     title: "PDF Template Generator",
     description:
       "Python application that generates PDF templates with ruled lines for note taking from CSV files. Creates customizable PDFs with topic headers, footers, and automatic page management for each topic section.",
     tech: ["Python", "FPDF", "Pandas"],
-    github: "https://github.com/Heetm77/pdf-template",
+    github: "https://github.com/Heetm77/Pdf_Template",
   },
   {
     title: "Tour Events Web Scraper",
     description:
       "Web scraping application that monitors websites for upcoming tour events, stores them in SQLite database, and sends email notifications when new events are discovered. Uses YAML based selectors for flexible data extraction.",
     tech: ["Python", "Requests", "SQLite", "SelectorLib", "YAML"],
-    github: "https://github.com/Heetm77/scraping-tours-sql",
+    github: "https://github.com/Heetm77/Scraping_Tours_sql",
   },
   {
     title: "Student Management System (PyQt6 + SQLite)",
     description:
       "Desktop application for managing student records with PyQt6 GUI. Features create, view, update, search, and delete operations with SQLite database backend. Includes menu bar, dialogs, and table view interface.",
     tech: ["Python", "PyQt6", "SQLite"],
-    github: "https://github.com/Heetm77/student-management-system",
+    github: "https://github.com/Heetm77/Student_Management_System",
   },
 ];
 
