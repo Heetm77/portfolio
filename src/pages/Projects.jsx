@@ -96,25 +96,11 @@ const projects = [
     github: "https://github.com/Heetm77/Student_Management_System",
   },
   {
-    title: "Derivatives Pricing Library",
+    title: "Derivatives Pricing",
     description:
-      "Comprehensive Python library for derivatives pricing and risk modeling using Black Scholes, Monte Carlo simulation, and Binomial Tree methods. Includes Greeks calculation, Value at Risk (VaR), and risk metrics.",
-    tech: ["Python", "NumPy", "SciPy", "Pandas", "Black-Scholes", "Monte Carlo"],
-    github: "https://github.com/Heetm77/derivatives-pricing",
-  },
-  {
-    title: "Implied Volatility Surface and Arbitrage Detection",
-    description:
-      "Built a real time volatility surface dashboard using the Black Scholes model and live market data from yfinance. Computed implied volatility for European call options across multiple strikes and maturities. Detected butterfly arbitrage and visualized 3D IV surfaces and smiles using Plotly and Streamlit.",
-    tech: ["Python", "yfinance", "Plotly", "Streamlit", "Black-Scholes"],
-    
-  },
-  {
-    title: "Exotic Derivatives Pricing and Sensitivity Analysis",
-    description:
-      "Designed and executed Monte Carlo simulations (10,000+ iterations) using the Euler Maruyama method to price exotic options, achieving accurate pricing for Asian and Lookback options. Conducted sensitivity analysis with Finite Difference Methods to compute Greeks (Delta, Gamma, Vega, Theta) and analyzed the effect of market parameters on option prices.",
-    tech: ["Python", "Monte Carlo", "Finite Difference Methods", "Euler-Maruyama"],
-    
+      "Portfolio grade quant project for derivatives pricing and risk modeling from first principles. Black Scholes analytical pricing and closed form Greeks, Monte Carlo (GBM) with control variates for variance reduction, numerical Greeks via finite differences, and American put pricing with Longstaff Schwartz LSM including early exercise boundary visualization and path split overfitting diagnostics. Benchmarked against binomial trees.",
+    tech: ["Python", "NumPy", "SciPy", "Black Scholes", "Monte Carlo", "Longstaff Schwartz"],
+    github: "https://github.com/Heetm77/Derivatives_Pricing",
   },
 ];
 
